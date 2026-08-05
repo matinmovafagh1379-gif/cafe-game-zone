@@ -290,6 +290,9 @@ section{padding:100px 0;}
   .hero-grid{grid-template-columns:1fr;}
   .contact-wrap{grid-template-columns:1fr;}
 }
+
+
+
 @media (max-width:720px){
   .nav-links{display:none;}
   .menu-toggle{display:flex;}
