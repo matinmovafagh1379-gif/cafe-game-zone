@@ -5,7 +5,7 @@ if (menuToggle && navLinks) {
   menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
 }
 
-scroll reveal via IntersectionObserver (more efficient than scroll events)
+// scroll reveal via IntersectionObserver (more efficient than scroll events)
 const revealEls = document.querySelectorAll('.reveal');
 const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
