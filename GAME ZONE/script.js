@@ -6,16 +6,16 @@ if (menuToggle && navLinks) {
 }
 
 // scroll reveal via IntersectionObserver (more efficient than scroll events)
-const revealEls = document.querySelectorAll('.reveal');
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-      io.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.15 });
-revealEls.forEach(el => io.observe(el));
+// const revealEls = document.querySelectorAll('.reveal');
+// const io = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('active');
+//       io.unobserve(entry.target);
+//     }
+//   });
+// }, { threshold: 0.15 });
+// revealEls.forEach(el => io.observe(el));
 
 // count-up stats
 const counters = document.querySelectorAll('[data-count]');
