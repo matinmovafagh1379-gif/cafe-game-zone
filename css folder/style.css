@@ -1,0 +1,312 @@
+*{
+  font-family: 'Vazirmatn_med';
+  /* padding: 0; */
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  font-size: 16px;
+ }
+ :root{
+  --primary-color: rgb(226, 204, 163);
+  --secondary-color: rgb(107, 22, 141);
+ }
+@font-face {
+  font-family: 'Vazirmatn_med';
+  src: url('../fonts/Vazir.eot') format('Vazir.eot'),
+       url('../fonts/Vazir.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn_bold';
+  src: url('../fonts/Vazir-Bold.eot') format('Vazirbold.eot'),
+       url('../fonts/Vazir.woff2') format('woff');
+  
+  font-style: bold;
+  font-display: swap;
+}
+
+header{
+background-image: url(../image/header.jpg);
+height: 600px;
+/* background-size: cover; */
+
+background-attachment: fixed;
+background-repeat:round;
+
+}
+
+
+/* body{
+ background-image: url(../image/ChatGPT\ Image\ Jul\ 29\,\ 2026\,\ 05_53_33\ PM.png);
+ inset: 0;
+ position: fixed;
+
+ background-size: cover;
+ background-attachment: fixed;
+
+}
+
+body{
+    position: relative;
+    background-image: url("../image/ChatGPT\ Image\ Jul\ 29\,\ 2026\,\ 05_53_33\ PM.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+}
+
+body *{
+    position: relative;
+    z-index: 1;
+} */
+.backgrounds_color{
+  background-color: #efefef;
+}
+.info{
+  background-color:var(--primary-color); width: 500px; height: 500px; 
+
+  padding: 100PX 400X 100PX !important;
+  margin: 10px 500px 100px !important;
+  
+  
+}
+/* .fa-house{
+  border-radius:20;
+  background-color:slategrey;
+} */
+
+.button{
+  background-color:darkgrey;
+  display: inline;
+  /* box-shadow: inset; */
+  /* display: block; */
+  text-decoration:none;
+   padding: 10PX 10PX 10PX;
+  /* margin: 20px 20px 20px; */
+ margin: 5px;
+  
+}
+.button:hover{
+  background-color:salmon;
+  color:var(--secondary-color);
+}
+
+
+/* .table_ul .xbox{
+  list-style-image: url(../image/icons8-xbox-32.png);
+width: 20px;
+height: 20px;
+} */
+/* .table_ul li{
+  display: inline;
+
+} */
+.table_ol li{
+  display: inline;
+  background-color: beige;
+  margin: 10px 20px;
+  
+  text-align: center;
+ }
+.ulol{
+  text-align: center;
+  position: relative;
+  
+}
+
+.info{
+  display: inline;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 250px;
+  
+}
+
+.ulol li a:hover{
+color:var(--secondary-color);
+border-bottom: 3px solid;
+}
+
+.ulol li a:active{
+background-color: azure;
+}
+.has_sub_menu{
+  position: relative;
+}
+.sub_menu {
+    background-color:wheat;
+    /* display: block; */
+    position: absolute;
+    /* padding: 2px 277px 56px; */
+    right: -30px;
+    padding: 0px 0px 0px;
+    display: none;
+  box-shadow: 0px 0PX 4PX 1px silver;
+}
+
+.sub_menu li {
+  display: block;
+}
+
+li.has_sub_menu:hover ul.sub_menu{
+  display: block;
+}
+
+.rezerf{
+  box-shadow: 2px 2px 2px;
+  
+}
+.hero :nth-child(3){
+ color: rgb(133, 17, 17);
+
+}
+.hero :first-child{
+color:sandybrown;
+}
+.hero :last-child{
+  background-color: burlywood;
+}
+
+.rezerf:hover{
+  background-color:salmon;
+  color: var(--secondary-color);
+  
+}
+
+.off_sub a{
+  /* background-color: rgb(199, 172, 132); */
+  background-image: linear-gradient(to right,sandybrown,gold);
+  height: 150px;
+  width:100%;
+  font-size: 100px;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin:0;
+  border-radius: 100%;
+  color: white;
+}
+.off_sub a:hover{
+  background-color:salmon;
+  color: var(--secondary-color);
+}
+
+.card_1{
+  background-image: url(../image/preview.jpg);
+  width: 150px;
+  height: 150px;
+  margin: 160px;
+  padding: 10PX 10PX;
+  border: 2px solid;
+  border-radius: 100%;
+  display:inline-block; 
+  box-shadow: 1px 1px 1px;
+}
+.RTX{
+  justify-content: center;
+  display: flex;
+  
+}
+.RTX2{
+  justify-content: center;
+  display: flex;
+  font-size: 12PX;
+  padding: -6px 9px -8px 2px;
+  text-wrap: unset;
+  
+}
+.card_1:hover{
+    background-color:salmon;
+  color: var(--secondary-color);
+}
+.FI::first-line {
+  color: rgb(49, 102, 62);
+}
+.hero::selection{
+  color: cadetblue;
+}
+.off_sub::before{
+  content: url(https://img.icons8.com/?size=100&id=YPTOhlU4qO2D&format=png&color=000000);
+display: flex;
+justify-content: center;
+}
+.off_sub::after{
+  content: url(https://img.icons8.com/?size=100&id=YPTOhlU4qO2D&format=png&color=000000);
+display: flex;
+justify-content: center;
+}
+.text_gallery{
+  /* background-image: linear-gradient(ro right,gold,brown); */
+  
+  /* width: cover; */
+  background-color:lemonchiffon;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 25px;
+  
+}
+.img{
+  float: right;
+  width: 25%;
+  line-height:0px;
+  box-shadow: 1px 1px 1px;
+
+}
+.img img{
+  width: 100%;
+}
+.img:hover{
+  filter: blur(2px);
+}
+.login{
+  width: 300px;
+  height: auto;
+  background: #f3eebc;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login h3{
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(24, 21, 21);
+}
+.login input{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  height: 25px;
+  padding: 10px;
+}
+.login button{
+  border: none;
+  background-color: rgb(77, 121, 77);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 1px;
+
+}
+.login button:hover{
+  background-color: rgb(79, 112, 79);
+  cursor: pointer;
+}
+.btn{
+  /* display: block; */
+  text-align: center;
+}
+
+
+
